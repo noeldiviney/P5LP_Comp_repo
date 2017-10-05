@@ -30,7 +30,7 @@
   <project remote="Ext_LCD_lib"       revision="master"   name="Ext_LCD_lib"          path="Components/Ext_LCD_lib"/>
   <project remote="KIT-059_lib"       revision="master"   name="KIT-059_lib"          path="Components/KIT-059_lib"/>
   <project remote="QuadDec_SW_lib"    revision="master"   name="QuadDec_SW_lib"       path="Components/QuadDec_SW_lib"/>
-  <project remote="TDust_UDB_lib"     revision="master"   name="TDust_lib"            path="Components/TDust_UDB_lib"/>
+  <project remote="TDust_UDB_lib"     revision="master"   name="TDust_UDB_lib"        path="Components/TDust_UDB_lib"/>
   <!--
   -->
 
