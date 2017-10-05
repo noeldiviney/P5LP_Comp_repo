@@ -7,8 +7,8 @@
   <remote  fetch="git://github.com/noeldiviney"              name="DDS24_lib"/>
   <remote  fetch="git://github.com/noeldiviney"              name="DDS32_lib"/>
   <remote  fetch="git://github.com/noeldiviney"              name="Encoder_lib"/>
-  <!--
   <remote  fetch="git://github.com/noeldiviney"              name="Ext_LCD_lib"/>
+  <!--
   <remote  fetch="git://github.com/noeldiviney"              name="KIT-059_lib"/>
   <remote  fetch="git://github.com/noeldiviney"              name="QuadDec_SW_lib"/>
   <remote  fetch="git://github.com/noeldiviney"              name="TDust_UDB_lib"/>
@@ -27,8 +27,8 @@
   <project remote="DDS24_lib"         revision="master"   name="DDS24_lib"            path="Components/DDS24_lib"/>
   <project remote="DDS32_lib"         revision="master"   name="DDS32_lib"            path="Components/DDS32_lib"/>
   <project remote="Encoder_lib"       revision="master"   name="Encoder_lib"          path="Components/Encoder_lib"/>
-  <!--
   <project remote="Ext_LCD_lib"       revision="master"   name="Ext_LCD_lib"          path="Components/Ext_LCD_lib"/>
+  <!--
   <project remote="KIT-059_lib"       revision="master"   name="KIT-059_lib"          path="Components/KIT-059_lib"/>
   <project remote="QuadDec_SW_lib"    revision="master"   name="QuadDec_SW_lib"       path="Components/QuadDec_SW_lib"/>
   <project remote="TDust_UDB_lib"     revision="master"   name="TDust_lib"            path="Components/TDust_UDB_lib"/>
