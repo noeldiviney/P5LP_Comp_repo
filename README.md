@@ -14,7 +14,12 @@ The **PSoC_5LP Component Library** repositories catered for here are
   7.  thank you odissey1______[QuadDec_SW_lib](https://github.com/noeldiviney/QuadDec_SW_lib)
   8.  thank you Todd Dust____[TDust_Lib](https://github.com/noeldiviney/TDust_Lib)
 
+  TODO more components
+  
 ### Sadly!! we have to Create a Windows 10 working environment  ###
+
+[Cygwin install howto](http://www.mcclean-cooper.com/valentino/cygwin_install/)
+
 
 ### Download and Install Google's repo utility ###
 
