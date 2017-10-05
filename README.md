@@ -12,7 +12,7 @@ The **PSoC_5LP Component Library** repositories catered for here are
   5.  thank you odissey1______[Ext_LCD_lib](https://github.com/noeldiviney/Ext_LCD_lib)
   6.  thank you odissey1______[KIT-059_lib](https://github.com/noeldiviney/KIT-059_lib)
   7.  thank you odissey1______[QuadDec_SW_lib](https://github.com/noeldiviney/QuadDec_SW_lib)
-  8.  thank you Todd Dust____[TDust_Lib](https://github.com/noeldiviney/TDust_Lib)
+  8.  thank you Todd Dust____[TDust_UDB_Lib](https://github.com/noeldiviney/TDust_UDB_Lib)
 
   TODO more components
   
