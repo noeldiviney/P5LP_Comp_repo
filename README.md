@@ -5,14 +5,14 @@ If you are unfamiliar with repo, you can read up on it [here](http://source.andr
   
 The **PSoC_5LP Component Library** repositories catered for here are
 
-  1.  thank you Michael Bey   [CharLCD_I2C_lib](https://github.com/noeldiviney/Char_I2C_lib)
-  2.  thank you odissey1      [DDS24_lib](https://github.com/noeldiviney/DDS24_lib)
-  3.  thank you odissey1      [DDS32_lib](https://github.com/noeldiviney/DDS32_lib)
-  4.  thank you odissey1      [Encoder_lib](https://github.com/noeldiviney/Encoder_lib)
-  5.  thank you odissey1      [Ext_LCD_lib](https://github.com/noeldiviney/Ext_LCD_lib)
-  6.  thank you odissey1      [KIT-059_lib](https://github.com/noeldiviney/KIT-059_lib)
-  7.  thank you odissey1      [QuadDec_SW_lib](https://github.com/noeldiviney/QuadDec_SW_lib)
-  8.  thank you Todd Dust     [TDust_Lib](https://github.com/noeldiviney/TDust_Lib)
+  1.  thank you Michael Bey...[CharLCD_I2C_lib](https://github.com/noeldiviney/Char_I2C_lib)
+  2.  thank you odissey1......[DDS24_lib](https://github.com/noeldiviney/DDS24_lib)
+  3.  thank you odissey1......[DDS32_lib](https://github.com/noeldiviney/DDS32_lib)
+  4.  thank you odissey1......[Encoder_lib](https://github.com/noeldiviney/Encoder_lib)
+  5.  thank you odissey1......[Ext_LCD_lib](https://github.com/noeldiviney/Ext_LCD_lib)
+  6.  thank you odissey1......[KIT-059_lib](https://github.com/noeldiviney/KIT-059_lib)
+  7.  thank you odissey1......[QuadDec_SW_lib](https://github.com/noeldiviney/QuadDec_SW_lib)
+  8.  thank you Todd Dust.....[TDust_Lib](https://github.com/noeldiviney/TDust_Lib)
 
 ### Sadly!! we have to Create a Windows 10 working environment  ###
 
