@@ -6,7 +6,7 @@ If you are unfamiliar with repo, you can read up on it [here](http://source.andr
 The **PSoC_5LP Component Library** repositories catered for here are
 
   1.  thank you Michael Bey__[CharLCD_I2C_lib](https://github.com/noeldiviney/Char_I2C_lib)
-  2.  thank you odissey1_____[DDS24_lib](https://github.com/noeldiviney/DDS24_lib)
+  2.  thank you odissey1______[DDS24_lib](https://github.com/noeldiviney/DDS24_lib)
   3.  thank you odissey1_____[DDS32_lib](https://github.com/noeldiviney/DDS32_lib)
   4.  thank you odissey1_____[Encoder_lib](https://github.com/noeldiviney/Encoder_lib)
   5.  thank you odissey1_____[Ext_LCD_lib](https://github.com/noeldiviney/Ext_LCD_lib)
