@@ -35,59 +35,21 @@ First we need to create our work environment
 
 Edit ~/.bash_profile and uncomment lines 32, 33 and 34 to add ~/bin to PATH
 
-### Create the BSP directory for YOCTO 1.7 dizzy ###
+### Create the PSoC_5LP directory ###
     
-    $: PATH=${PATH}:~/bin
-    $: mkdir yocto-dizzy
-    $: cd yocto-dizzy
+    $: mkdir ~/projects/PSoC_5LP
+    $: cd projects/PSoC_5LP
 
-#### Initialise the repositories for POKY dizzy ####
+#### Initialise the repositories for PSoC_5LP Components ####
 
-    $: repo init -u https://github.com/noeldiviney/yocto-repo -b dizzy 
+    $: repo init -u https://github.com/noeldiviney/PSoC_5LP_repo
 
-#### Download yocto, poky, openembedded and all BSP metadata layers ####
+#### Download the PSoC_5LP Component Libraries ####
 
     $: repo sync
 
-once this has completed you should have a complete development environment
+once this has completed you should have PSoC_5LP Component Libraries in place
 
-### Build a project ie the Wanboard-quad ###
-source the environment
+### Configure PSoC Creator to add the CDC Componet libraries ###
 
-    $: . ./setup-environment builds/Freescale/wandboard-quad
-
-Run Bitbake
-
-    $: bitbake fsl-image-multimedia-full
-
-
-## And thats all there is to it ##
-## EXCEPT!!          ##
-
-Raspberrypi fails to build with **yocto dizzy**, so we need **yocto daisy**
-
-### Create the BSP directory for YOCTO 1.7 daisy ###
-    
-    $: PATH=${PATH}:~/bin
-    $: mkdir yocto-daisy
-    $: cd yocto-daisy
-
-#### Initialise the repositories for POKY daisy ####
-
-    $: repo init -u https://github.com/noeldiviney/yocto-repo -b daisy 
-
-#### Download yocto, poky, openembedded and all BSP metadata layers ####
-
-    $: repo sync
-
-once this has completed you should have a complete development environment
-
-### Build a project ie the raspberrypi ###
-source the environment
-
-    $: . ./setup-environment builds/Raspberrypi/model-b+
-
-Run Bitbake
-
-    $: bitbake rpi-hwup-image
-    
+This is a Work In Progress
