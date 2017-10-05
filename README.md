@@ -12,7 +12,7 @@ The **PSoC_5LP Component Library** repositories catered for here are
   5.  [Ext_LCD_lib](https://github.com/noeldiviney/Ext_LCD_lib)
   6.  [KIT-059_lib](https://github.com/noeldiviney/KIT-059_lib)
   7.  [QuadDec_SW_lib](https://github.com/noeldiviney/QuadDec_SW_lib)
-  8.  [TDust_Lib](https://github.com/noeldiviney/TDust_Lib)                 thank you Todd Dust
+  8.  thank you Todd Dust  [TDust_Lib](https://github.com/noeldiviney/TDust_Lib)
 
 ### Sadly!! we have to Create a Windows 10 working environment  ###
 
