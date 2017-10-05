@@ -7,11 +7,11 @@ The **PSoC_5LP Component Library** repositories catered for here are
 
   1.  thank you Michael Bey__[CharLCD_I2C_lib](https://github.com/noeldiviney/Char_I2C_lib)
   2.  thank you odissey1______[DDS24_lib](https://github.com/noeldiviney/DDS24_lib)
-  3.  thank you odissey1_____[DDS32_lib](https://github.com/noeldiviney/DDS32_lib)
-  4.  thank you odissey1_____[Encoder_lib](https://github.com/noeldiviney/Encoder_lib)
-  5.  thank you odissey1_____[Ext_LCD_lib](https://github.com/noeldiviney/Ext_LCD_lib)
-  6.  thank you odissey1_____[KIT-059_lib](https://github.com/noeldiviney/KIT-059_lib)
-  7.  thank you odissey1_____[QuadDec_SW_lib](https://github.com/noeldiviney/QuadDec_SW_lib)
+  3.  thank you odissey1______[DDS32_lib](https://github.com/noeldiviney/DDS32_lib)
+  4.  thank you odissey1______[Encoder_lib](https://github.com/noeldiviney/Encoder_lib)
+  5.  thank you odissey1______[Ext_LCD_lib](https://github.com/noeldiviney/Ext_LCD_lib)
+  6.  thank you odissey1______[KIT-059_lib](https://github.com/noeldiviney/KIT-059_lib)
+  7.  thank you odissey1______[QuadDec_SW_lib](https://github.com/noeldiviney/QuadDec_SW_lib)
   8.  thank you Todd Dust____[TDust_Lib](https://github.com/noeldiviney/TDust_Lib)
 
 ### Sadly!! we have to Create a Windows 10 working environment  ###
