@@ -6,13 +6,13 @@ If you are unfamiliar with repo, you can read up on it [here](http://source.andr
 The **PSoC_5LP Component Library** repositories catered for here are
 
   1.	[CharLCD_I2C_lib](https://github.com/noeldiviney/Char_I2C_lib)
-  2.	[CharLCD_I2C_lib](https://github.com/noeldiviney/DDS24_lib)
-  3.	[CharLCD_I2C_lib](https://github.com/noeldiviney/DDS32_lib)
-  4.	[CharLCD_I2C_lib](https://github.com/noeldiviney/Encoder_lib)
-  5.  [CharLCD_I2C_lib](https://github.com/noeldiviney/Ext_LCD_lib)
-  6.  [CharLCD_I2C_lib](https://github.com/noeldiviney/KIT-059_lib)
-  7.  [CharLCD_I2C_lib](https://github.com/noeldiviney/QuadDec_SW_lib)
-  8.  [CharLCD_I2C_lib](https://github.com/noeldiviney/TDust_Lib)           thank you Todd Dust
+  2.	[DDS24_lib](https://github.com/noeldiviney/DDS24_lib)
+  3.	[DDS32_lib](https://github.com/noeldiviney/DDS32_lib)
+  4.	[Encoder_lib](https://github.com/noeldiviney/Encoder_lib)
+  5.  [Ext_LCD_lib](https://github.com/noeldiviney/Ext_LCD_lib)
+  6.  [KIT-059_lib](https://github.com/noeldiviney/KIT-059_lib)
+  7.  [QuadDec_SW_lib](https://github.com/noeldiviney/QuadDec_SW_lib)
+  8.  [TDust_Lib](https://github.com/noeldiviney/TDust_Lib)                   thank you Todd Dust
 
 ### Sadly!! we have to Create a Windows 10 working environment  ###
 
