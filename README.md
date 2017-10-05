@@ -33,6 +33,7 @@ First we need to create our work environment
     $: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
     $: chmod a+x ~/bin/repo 
 
+Edit ~/.bash_profile and uncomment lines 32, 33 and 34 to add ~/bin to PATH
 
 ### Create the BSP directory for YOCTO 1.7 dizzy ###
     
