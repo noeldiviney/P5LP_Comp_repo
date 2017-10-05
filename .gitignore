@@ -1,0 +1,4 @@
+# Ignore PSoC Creator temp and user specific files
+
+# Ignore bak files
+*.bak
