@@ -20,6 +20,9 @@ The **PSoC_5LP Component Library** repositories catered for here are
 
 [Cygwin install howto](http://www.mcclean-cooper.com/valentino/cygwin_install/)
 
+I also installed apt-cyg (cygwin apt-get) and gem
+[AsciidocFX](https://github.com/asciidocfx/AsciidocFX/releases/download/v1.5.6/AsciidocFX_Windows.exe)
+There are possibly others but my memory fails me
 
 ### Download and Install Google's repo utility ###
 
