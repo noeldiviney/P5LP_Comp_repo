@@ -11,6 +11,7 @@
   <remote  fetch="git://github.com/noeldiviney"              name="KIT-059_lib"/>
   <remote  fetch="git://github.com/noeldiviney"              name="QuadDec_SW_lib"/>
   <remote  fetch="git://github.com/noeldiviney"              name="TDust_UDB_lib"/>
+  <remote  fetch="git://github.com/noeldiviney"              name="ND_PSoC_Comp_lib"/>
   <!--
   -->
 
@@ -31,6 +32,7 @@
   <project remote="KIT-059_lib"       revision="master"   name="KIT-059_lib"          path="Components/KIT-059_lib"/>
   <project remote="QuadDec_SW_lib"    revision="master"   name="QuadDec_SW_lib"       path="Components/QuadDec_SW_lib"/>
   <project remote="TDust_UDB_lib"     revision="master"   name="TDust_UDB_lib"        path="Components/TDust_UDB_lib"/>
+  <project remote="ND_PSoC_Comp_lib"  revision="master"   name="ND_PSoC_Comp_lib"     path="Components/ND_PSoC_Comp_lib"/>
   <!--
   -->
 
