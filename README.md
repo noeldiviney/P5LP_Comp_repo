@@ -37,8 +37,8 @@ Edit ~/.bash_profile and uncomment lines 32, 33 and 34 to add ~/bin to PATH
 
 ### Create the PSoC_5LP directory ###
     
-    $: mkdir ~/projects/PSoC_5LP
-    $: cd projects/PSoC_5LP
+    $: mkdir -p ~/projects/P5LP
+    $: cd projects/P5LP
 
 #### Initialise the repositories for PSoC_5LP Components ####
 
