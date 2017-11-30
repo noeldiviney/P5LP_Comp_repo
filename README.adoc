@@ -85,7 +85,9 @@ $: repo sync
 once this has completed you should have PSoC_5LP Component Libraries in
 place
 
+
 image::images/ComponentLibs.gif[Component Libs]
+
 [[configure-psoc-creator-to-add-the-cdc-componet-libraries]]
 Configure PSoC Creator to add the CDC Componet libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
