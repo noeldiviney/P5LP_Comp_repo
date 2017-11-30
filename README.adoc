@@ -6,7 +6,7 @@ PSoC_5LP_repo
 use of Google's "repo" to manage a number of PSoC_5LP CDC Component
 Library repositories. +
 If you are unfamiliar with repo, you can read up on it
-http://source.android.com/source/version-control.html[here].
+https://code.google.com/archive/p/git-repo/[here].
 
 The *PSoC_5LP Component Library* repositories catered for here are
 
