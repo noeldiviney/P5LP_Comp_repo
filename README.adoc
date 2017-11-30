@@ -2,7 +2,7 @@
 PSoC_5LP_repo
 ~~~~~~~~~~~~~
 
-*PSoC_5LP_repo* repository hold the default.xml manifest to allow the
+*PSoC_5LP_repo* repository holds the default.xml manifest to allow the
 use of Google's "repo" to manage a number of PSoC_5LP CDC Component
 Library repositories. +
 If you are unfamiliar with repo, you can read up on it
@@ -85,6 +85,7 @@ $: repo sync
 once this has completed you should have PSoC_5LP Component Libraries in
 place
 
+image::images/ComponentLibs.gif[Component Libs]
 [[configure-psoc-creator-to-add-the-cdc-componet-libraries]]
 Configure PSoC Creator to add the CDC Componet libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
