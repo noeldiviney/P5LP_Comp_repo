@@ -90,4 +90,24 @@ image::images/ComponentLibs.gif[Component Libs]
 Configure PSoC Creator to add the CDC Componet libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is a Work In Progress
+Launch PSoC Creator and select File->New->Project
+In "Select project type" dialog select "Target Device" = "PSoC 5lp  CY8C6888LTI-LP097"
+In "Select project template" select "Empty schematic"
+In "Create Project" dialog select
+    Workspace Name      =  "TestLibs"
+    Location            =  "Path\To\cygwin64\home\"you"\projects\P5LP\TestLibs"
+    Project Name        =  "TestLibs"
+and "finish"
+
+When new "TestLibs" project is launched
+select Tools->Options
+In "Options" dialog select "Project Management->Default Dependencies"
+Navigate to "Path\To\cygwin64\home\"you"\projects\P5LP\Components"
+Using the "New Entry" button to find and "open" each Libratiy's .cyprj file
+
+When finished the "Tools->Options" dialog should look like the following
+image::images/DefaultDependencies.gif[Default Dependencies]
+
+The "Component Catalog" tree should look like
+image::images/CDC_Catalog.gif[Component Catalog]
+
