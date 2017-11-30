@@ -8,26 +8,21 @@ Library repositories. +
 If you are unfamiliar with repo, you can read up on it
 https://code.google.com/archive/p/git-repo/[here].
 
-The *PSoC_5LP Component Library* repositories catered for here are
+The *PSoC_5LP Component Library* 
+repositories catered for here are as follows
 
-1.  thank you Michael
-Bey__https://github.com/noeldiviney/Char_I2C_lib[CharLCD_I2C_lib]
-2.  thank you
-odissey1______https://github.com/noeldiviney/DDS24_lib[DDS24_lib]
-3.  thank you
-odissey1______https://github.com/noeldiviney/DDS32_lib[DDS32_lib]
-4.  thank you
-odissey1______https://github.com/noeldiviney/Encoder_lib[Encoder_lib]
-5.  thank you
-odissey1______https://github.com/noeldiviney/Ext_LCD_lib[Ext_LCD_lib]
-6.  thank you
-odissey1______https://github.com/noeldiviney/KIT-059_lib[KIT-059_lib]
-7.  thank you
-odissey1______https://github.com/noeldiviney/QuadDec_SW_lib[QuadDec_SW_lib]
-8.  thank you Todd
-Dust____https://github.com/noeldiviney/TDust_UDB_Lib[TDust_UDB_Lib]
+Credits go to the following contributers who did the hard work involved
 
-TODO more components
+1.  Michael Bey .... https://github.com/noeldiviney/Char_I2C_lib[CharLCD_I2C_lib]
+2.  odissey1 ... ... ..  https://github.com/noeldiviney/DDS24_lib[DDS24_lib]
+3.  odissey1 ... ... .. https://github.com/noeldiviney/DDS32_lib[DDS32_lib]
+4.  odissey1 ... ... .. https://github.com/noeldiviney/Encoder_lib[Encoder_lib]
+5.  odissey1 ... ... .. https://github.com/noeldiviney/Ext_LCD_lib[Ext_LCD_lib]
+6.  odissey1 ... ... .. https://github.com/noeldiviney/KIT-059_lib[KIT-059_lib]
+7.  odissey1 ... ... .. https://github.com/noeldiviney/QuadDec_SW_lib[QuadDec_SW_lib]
+8.  Todd Dust .. ... . https://github.com/noeldiviney/TDust_UDB_Lib[TDust_UDB_Lib]
+
+TODO ... more components
 
 [[sadly-we-have-to-create-a-windows-10-working-environment]]
 Sadly!! we have to Create a Windows 10 working environment
