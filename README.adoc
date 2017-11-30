@@ -1,0 +1,92 @@
+[[psoc_5lp_repo]]
+PSoC_5LP_repo
+~~~~~~~~~~~~~
+
+*PSoC_5LP_repo* repository hold the default.xml manifest to allow the
+use of Google's "repo" to manage a number of PSoC_5LP CDC Component
+Library repositories. +
+If you are unfamiliar with repo, you can read up on it
+http://source.android.com/source/version-control.html[here].
+
+The *PSoC_5LP Component Library* repositories catered for here are
+
+1.  thank you Michael
+Bey__https://github.com/noeldiviney/Char_I2C_lib[CharLCD_I2C_lib]
+2.  thank you
+odissey1______https://github.com/noeldiviney/DDS24_lib[DDS24_lib]
+3.  thank you
+odissey1______https://github.com/noeldiviney/DDS32_lib[DDS32_lib]
+4.  thank you
+odissey1______https://github.com/noeldiviney/Encoder_lib[Encoder_lib]
+5.  thank you
+odissey1______https://github.com/noeldiviney/Ext_LCD_lib[Ext_LCD_lib]
+6.  thank you
+odissey1______https://github.com/noeldiviney/KIT-059_lib[KIT-059_lib]
+7.  thank you
+odissey1______https://github.com/noeldiviney/QuadDec_SW_lib[QuadDec_SW_lib]
+8.  thank you Todd
+Dust____https://github.com/noeldiviney/TDust_UDB_Lib[TDust_UDB_Lib]
+
+TODO more components
+
+[[sadly-we-have-to-create-a-windows-10-working-environment]]
+Sadly!! we have to Create a Windows 10 working environment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+http://www.mcclean-cooper.com/valentino/cygwin_install/[Cygwin install
+howto]
+
+I also installed apt-cyg (cygwin apt-get) and gem. +
+For editing markdown files I istalled
+https://github.com/asciidocfx/AsciidocFX/releases/download/v1.5.6/AsciidocFX_Windows.exe[AsciidocFX] +
+There are possibly others but my memory fails me
+
+[[download-and-install-googles-repo-utility]]
+Download and Install Google's repo utility
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The above libs are managed by the repo utility. First we need to create
+our work environment
+
+....
+$: mkdir ~/bin
+$: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$: chmod a+x ~/bin/repo 
+....
+
+Edit ~/.bash_profile and uncomment lines 32, 33 and 34 to add ~/bin to
+PATH
+
+[[create-the-psoc_5lp-directory]]
+Create the PSoC_5LP directory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+....
+$: mkdir -p ~/projects/P5LP
+$: cd projects/P5LP
+....
+
+[[initialise-the-repositories-for-psoc_5lp-components]]
+Initialise the repositories for PSoC_5LP Components
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+....
+$: repo init -u https://github.com/noeldiviney/PSoC_5LP_repo
+....
+
+[[download-the-psoc_5lp-component-libraries]]
+Download the PSoC_5LP Component Libraries
++++++++++++++++++++++++++++++++++++++++++
+
+....
+$: repo sync
+....
+
+once this has completed you should have PSoC_5LP Component Libraries in
+place
+
+[[configure-psoc-creator-to-add-the-cdc-componet-libraries]]
+Configure PSoC Creator to add the CDC Componet libraries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This is a Work In Progress
