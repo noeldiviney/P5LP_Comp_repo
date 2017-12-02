@@ -3,19 +3,13 @@
 
   <default sync-j="4" revision="master"/>
 
-  <remote  fetch="git://github.com/noeldiviney"              name="DDS24_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="DDS32_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="KIT-059_lib"/>
-  <remote  fetch="git://github.com/noeldiviney"              name="QuadDec_lib"/>
+  <remote  fetch="git://github.com/noeldiviney"              name="Odissey1_lib"/>
   <remote  fetch="git://github.com/noeldiviney"              name="TDust_UDB_lib"/>
   <remote  fetch="git://github.com/noeldiviney"              name="ND_PSoC_Comp_lib"/>
   <remote  fetch="git://github.com/noeldiviney"              name="ND_P5LP_Sch_Macro_lib"/>
   <!--
   -->
-  <project remote="DDS24_lib"              revision="master"   name="DDS24_lib"            path="Components/DDS24_lib"/>
-  <project remote="DDS32_lib"              revision="master"   name="DDS32_lib"            path="Components/DDS32_lib"/>
-  <project remote="KIT-059_lib"            revision="master"   name="KIT-059_lib"          path="Components/KIT-059_lib"/>
-  <project remote="QuadDec_lib"            revision="master"   name="QuadDec_SW_lib"       path="Components/QuadDec_lib"/>
+  <project remote="Odissey1_lib"           revision="master"   name="Odissey1_lib"         path="Components/Odissey1_lib"/>
   <project remote="TDust_UDB_lib"          revision="master"   name="TDust_UDB_lib"        path="Components/TDust_UDB_lib"/>
   <project remote="ND_PSoC_Comp_lib"       revision="master"   name="ND_PSoC_Comp_lib"     path="Components/ND_PSoC_Comp_lib"/>
   <project remote="ND_P5LP_Sch_Macro_lib"  revision="master"   name="ND_P5LP_MACRO_lib"    path="Components/ND_P5LP_Sch_Macro_lib"/>
