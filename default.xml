@@ -9,10 +9,10 @@
   <remote  fetch="git://github.com/noeldiviney"              name="ND_P5LP_Sch_Macro_lib"/>
   <!--
   -->
-  <project remote="Odissey1_lib"           revision="master"   name="Odissey1_lib"         path="ComponentsDev/Odissey1_lib"/>
-  <project remote="TDust_UDB_lib"          revision="master"   name="TDust_UDB_lib"        path="ComponentsDev/TDust_UDB_lib"/>
-  <project remote="ND_PSoC_Comp_lib"       revision="master"   name="ND_PSoC_Comp_lib"     path="ComponentsDev/ND_PSoC_Comp_lib"/>
-  <project remote="ND_P5LP_Sch_Macro_lib"  revision="master"   name="ND_P5LP_MACRO_lib"    path="ComponentsDev/ND_P5LP_Sch_Macro_lib"/>
+  <project remote="Odissey1_lib"           revision="master"   name="Odissey1_lib"         path="Odissey1_lib"/>
+  <project remote="TDust_UDB_lib"          revision="master"   name="TDust_UDB_lib"        path="TDust_UDB_lib"/>
+  <project remote="ND_PSoC_Comp_lib"       revision="master"   name="ND_PSoC_Comp_lib"     path="ND_PSoC_Comp_lib"/>
+  <project remote="ND_P5LP_Sch_Macro_lib"  revision="master"   name="ND_P5LP_MACRO_lib"    path="ND_P5LP_Sch_Macro_lib"/>
   <!--
   -->
 
