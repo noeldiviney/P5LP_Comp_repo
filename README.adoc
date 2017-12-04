@@ -25,8 +25,8 @@ my knowledge up to that required to create the Library. Thanks guys.
 
 1.  Michael Bey .... .. CharLCD I2C lib
 2.  odissey1 ... ... .... QuadDecoder, DDS24, DDS32, and KIT-059 
-3.  Todd Dust .. ... .. TDust_UDB components
-4.  Alan Hawse  ... .. Iot_Expert articles and Blogs
+3.  Todd Dust .. ... ... TDust_UDB components
+4.  Alan Hawse  ... .... Iot_Expert articles and Blogs
 
 TODO ... more components
 
