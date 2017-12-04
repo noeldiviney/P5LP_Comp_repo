@@ -30,7 +30,8 @@ my knowledge up to that required to create the Library. Thanks guys.
 
 TODO ... more components
 
-# Sadly!! we have to Create a Windows 10 working environment
+# I am using Cygwin64 for my Git/Repo working environment
+## Sadly!! we have to use Windows 10 for PSoC Creator
 
 http://www.mcclean-cooper.com/valentino/cygwin_install/[Cygwin install
 howto]
