@@ -24,9 +24,7 @@ Credits go to the following contributers who did the hard work involved
 
 TODO ... more components
 
-[[sadly-we-have-to-create-a-windows-10-working-environment]]
-Sadly!! we have to Create a Windows 10 working environment
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Sadly!! we have to Create a Windows 10 working environment
 
 http://www.mcclean-cooper.com/valentino/cygwin_install/[Cygwin install
 howto]
@@ -36,9 +34,7 @@ For editing markdown files I istalled
 https://github.com/asciidocfx/AsciidocFX/releases/download/v1.5.6/AsciidocFX_Windows.exe[AsciidocFX] +
 Add other files as required
 
-[[download-and-install-googles-repo-utility]]
-Download and Install Google's repo utility
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Download and Install Google's repo utility
 
 The above libs are managed by the repo utility. First we need to create
 our work environment
@@ -52,26 +48,20 @@ $: chmod a+x ~/bin/repo
 Edit ~/.bash_profile and uncomment lines 32, 33 and 34 to add ~/bin to
 PATH
 
-[[create-the-psoc_5lp-directory]]
-Create the PSoC_5LP directory
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Create the PSoC_5LP directory
 
 ....
-$: mkdir -p ~/projects/P5LP
-$: cd projects/P5LP
+$: mkdir -p ~/projects/P5LP/ComponentsDev
+$: cd projects/P5LP/ComponentsDev
 ....
 
-[[initialise-the-repositories-for-psoc_5lp-components]]
-Initialise the repositories for PSoC_5LP Components
-+++++++++++++++++++++++++++++++++++++++++++++++++++
+# Initialise the repositories for PSoC_5LP Components
 
 ....
-$: repo init -u https://github.com/noeldiviney/PSoC_5LP_repo
+$: repo init -u https://github.com/noeldiviney/P5LP_Comp_repo
 ....
 
-[[download-the-psoc_5lp-component-libraries]]
-Download the PSoC_5LP Component Libraries
-+++++++++++++++++++++++++++++++++++++++++
+# Download the PSoC_5LP Component Libraries
 
 ....
 $: repo sync
@@ -83,24 +73,22 @@ place
 
 image::images/ComponentLibs.gif[Component Libs]
 
-[[configure-psoc-creator-to-add-the-cdc-componet-libraries]]
-Configure PSoC Creator to add the CDC Componet libraries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Configure PSoC Creator to add the CDC Component libraries
 
 * Launch PSoC Creator and select "File->New->Project"
 * In "Select project type" dialog select "Target Device" = "PSoC 5lp  CY8C6888LTI-LP097"
 * In "Select project template" select "Empty schematic"
 * In "Create Project" dialog select
-** Workspace Name      =  "TestLibs"
-** Location            =  "Path\To\cygwin64\home\"you"\projects\P5LP\TestLibs" 
-** Project Name        =  "TestLibs"
+** Workspace Name      =  "CompTest"
+** Location            =  "Path\To\cygwin64\home\"you"\projects\P5LP\ComponentsTest" 
+** Project Name        =  "CompTest"
 * and "finish"
 
-When new "TestLibs" project is launched
+When new "CompTest" project is launched
 
 * select Tools->Options
 * In "Options" dialog select "Project Management->Default Dependencies"
-* Navigate to "Path\To\cygwin64\home\"you"\projects\P5LP\Components"
+* Navigate to "Path\To\cygwin64\home\"you"\projects\P5LP\ComponentsDev"
 * Using the "New Entry" button to find and "open" each Libratiy's .cyprj file
 
 When finished the "Tools->Options" dialog should look like the following
@@ -111,3 +99,4 @@ The "Component Catalog" tree should look like
 
 image::images/CDC_Catalog.gif[Component Catalog]
 
+# TODO this is a "Work in progress"
