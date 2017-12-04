@@ -11,17 +11,17 @@ https://code.google.com/archive/p/git-repo/[here].
 The *PSoC_5LP Component Library* 
 repositories catered for are as follows
 
-https://github.com/noeldiviney/ND_PSoC_Comp_lib
-https://github.com/noeldiviney/ND_PSoC_Sch_Macro_lib
-https://github.com/noeldiviney/Odissey1_lib
-https://github.com/noeldiviney/TDust_UDB_lib
+https://github.com/noeldiviney/ND_PSoC_Comp_lib  
+https://github.com/noeldiviney/ND_PSoC_Sch_Macro_lib  
+https://github.com/noeldiviney/Odissey1_lib  
+https://github.com/noeldiviney/TDust_UDB_lib  
 
 Credits go to the following contributers who's work I have borrowed on
 to create the Library. They have also been a great inspiration in getting
 my knowledge up to that required to create the Library. Thanks guys.
 
 1.  Michael Bey .... .. CharLCD I2C lib
-2.  odissey1 ... ... .. QuadDecoder, DDS24, DDS32, and KIT-059 
+2.  odissey1 ... ... .... QuadDecoder, DDS24, DDS32, and KIT-059 
 3.  Todd Dust .. ... .. TDust_UDB components
 4.  Alan Hawse , ... .. Iot_Expert articles and Blogs
 
