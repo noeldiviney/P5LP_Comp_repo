@@ -32,6 +32,8 @@ TODO ... more components
 
 # I am using Cygwin64 for my Git/Repo working environment
 ## Sadly!! we have to use Windows 10 for PSoC Creator
+## Surely now that Dot Net is ported to Linux Cypress can oblige
+## Please
 
 http://www.mcclean-cooper.com/valentino/cygwin_install/[Cygwin install
 howto]
