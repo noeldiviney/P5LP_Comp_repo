@@ -11,6 +11,8 @@ https://code.google.com/archive/p/git-repo/[here].
 The *PSoC_5LP Component Library* 
 repositories catered for here are as follows
 
+https://github.com/noeldiviney/ND_PSoC_Comp_lib
+
 Credits go to the following contributers who did the hard work involved
 
 1.  Michael Bey .... https://github.com/noeldiviney/Char_I2C_lib[CharLCD_I2C_lib]
