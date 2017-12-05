@@ -90,22 +90,12 @@ image::images/ComponentLibs.gif[Component Libs]
 
 image::images/OptionsDialog.gif[Options Dialog]
 
+* Ensure that "Projects Location" shows ~\projects\P5LP\ComponentsTest"
+* Now select "Project Management->Default Dependencies"
+* Navigate to "~\projects\P5LP\ComponentsDev"
+* Use the "New Entry" button to find and "open" each Libratiy's .cyprj file
 
-* In "Select project template" select "Empty schematic"
-* In "Create Project" dialog select
-** Workspace Name      =  "CompTest"
-** Location            =  "Path\To\cygwin64\home\"you"\projects\P5LP\ComponentsTest" 
-** Project Name        =  "CompTest"
-* and "finish"
-
-When new "CompTest" project is launched
-
-* select Tools->Options
-* In "Options" dialog select "Project Management->Default Dependencies"
-* Navigate to "Path\To\cygwin64\home\"you"\projects\P5LP\ComponentsDev"
-* Using the "New Entry" button to find and "open" each Libratiy's .cyprj file
-
-When finished the "Tools->Options" dialog should look like the following
+## When finished the "Project Management->Default Dependencies" dialog should look like the following
 
 image::images/DefaultDependencies.gif[Default Dependencies]
 
