@@ -99,7 +99,19 @@ image::images/OptionsDialog.gif[Options Dialog]
 
 image::images/DefaultDependencies.gif[Default Dependencies]
 
-The "Component Catalog" tree should look like
+* When finished press "Ok" to close the dialog
+
+# Create "Empty Schematic" project
+
+* Use "File->New->Project" to launch the "Create Project" dialog
+* Select "Target device"
+* Select "PSoC 5LP" and "CY8C5888LTQ-LP097"   and  "next" btn
+* Select "Empty Schematic" and "next" btn
+* Select "Finish" btn to launch the new project
+* In "Project Explorer" Window double click on the "TopDesign.cysch"
+* In the "Component Catalog" window on the right select "CDC" tab
+
+## The "Component Catalog" tree should look like
 
 image::images/CDC_Catalog.gif[Component Catalog]
 
