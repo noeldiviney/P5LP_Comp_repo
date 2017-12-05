@@ -32,7 +32,7 @@ TODO ... more components
 
 # Setup Cygwin64 environment
 
-https::/github.com/noeldiviney/Docs/blob//Cygwin64Install.adoc[CywwinInstall]
+https://github.com/noeldiviney/Docs/blob//Cygwin64Install.adoc[CygwinInstall]
 
 # Installing Google Repo
 
