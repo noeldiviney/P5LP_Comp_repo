@@ -13,7 +13,7 @@ repositories catered for are as follows
 
 https://github.com/noeldiviney/ND_PSoC_Comp_lib  
 
-https://github.com/noeldiviney/ND_PSoC_Sch_Macro_lib  
+https://github.com/noeldiviney/ND_P5LP_Sch_Macro_lib  
 
 https://github.com/noeldiviney/Odissey1_lib  
 
