@@ -111,13 +111,13 @@ image::images/CDC_Catalog.gif[Component Catalog]
 # Editing the Components in ~projects/P5LP/ComponentsDev
 
 After using "Repo sync" to fetch all the librarys
-"Git status" shows that they are detached which is unsuitable fot git add, git commit etc
-To get around this it is necessary to use the following commands with Git
+"Git status" shows that they are detached which means they are unsuitable for git add, git commit etc
+To get around this it is necessary to use the following  Git commands.
 
 ....
 $: git checkout master   or whatever branch one wishes to use
-$: git committ -a
-$: git git push https://github.com/noeldiviney/CharLCD_I2C_Test.git  (in my case)
+$: git commit -a
+$: git push https://github.com/noeldiviney/CharLCD_I2C_Test.git  (in my case)
 ....
 
 # TODO this is a "Work in progress"
