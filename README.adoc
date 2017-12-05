@@ -30,17 +30,8 @@ my knowledge up to that required to create the Library. Thanks guys.
 
 TODO ... more components
 
-# Setup Cygwin64 environment
-
-https://github.com/noeldiviney/Docs/blob/master/Cygwin64Install.adoc[CygwinInstall]
-
-# Installing Google Repo
-
-
 # I am using Cygwin64 for my Git/Repo working environment
 ## Sadly!! we have to use Windows 10 for PSoC Creator
-## Surely now that Dot Net is ported to Linux Cypress can oblige
-## Please
 
 http://www.mcclean-cooper.com/valentino/cygwin_install/[Cygwin install
 howto]
@@ -51,9 +42,6 @@ https://github.com/asciidocfx/AsciidocFX/releases/download/v1.5.6/AsciidocFX_Win
 Add other files as required
 
 # Download and Install Google's repo utility
-
-The above libs are managed by the repo utility. First we need to create
-our work environment
 
 ....
 $: mkdir ~/bin
