@@ -86,7 +86,8 @@ image::images/ComponentLibs.gif[Component Libs]
 
 * Launch PSoC Creator
 * select "Tools->Options"
-* Setup the "Options"  dialog as per the following
+* Setup the "Options"  dialog as per the following image
+
 image::images/OptionsDialog.gif[Options Dialog]
 
 
