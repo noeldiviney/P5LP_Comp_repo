@@ -123,4 +123,4 @@ $: git push https://github.com/noeldiviney/CharLCD_I2C_Test.git  (in my case)
 ....
 
 # TODO this is a "Work in progress"
-# I intend to document all of this more thoroughly using GitHub Wiki
+# My intention is to document all of this more thoroughly using GitHub Wiki
