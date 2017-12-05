@@ -84,8 +84,12 @@ image::images/ComponentLibs.gif[Component Libs]
 
 # Configure PSoC Creator to add the CDC Component libraries
 
-* Launch PSoC Creator and select "File->New->Project"
-* In "Select project type" dialog select "Target Device" = "PSoC 5lp  CY8C6888LTI-LP097"
+* Launch PSoC Creator
+* select "Tools->Options"
+* Setup the "Options"  dialog as per the following
+image::images/OptionsDialog.gif[Options Dialog]
+
+
 * In "Select project template" select "Empty schematic"
 * In "Create Project" dialog select
 ** Workspace Name      =  "CompTest"
