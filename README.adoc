@@ -39,7 +39,7 @@ http://www.mcclean-cooper.com/valentino/cygwin_install/[Cygwin install
 howto]
 
 I also installed apt-cyg (cygwin apt-get) and gem. +
-For editing markdown files I istalled
+For editing markdown and asciidoc files I istalled
 https://github.com/asciidocfx/AsciidocFX/releases/download/v1.5.6/AsciidocFX_Windows.exe[AsciidocFX] +
 Add other files as required
 
@@ -108,4 +108,17 @@ The "Component Catalog" tree should look like
 
 image::images/CDC_Catalog.gif[Component Catalog]
 
+# Editing the Components in ~projects/P5LP/ComponentsDev
+
+After using "Repo sync" to fetch all the librarys
+"Git status" shows that they are detached which is unsuitable fot git add, git commit etc
+To get around this it is necessary to use the following commands with Git
+
+....
+$: git checkout master   or whatever branch one wishes to use
+$: git committ -a
+$: git git push https://github.com/noeldiviney/CharLCD_I2C_Test.git  (in my case)
+....
+
 # TODO this is a "Work in progress"
+# I intend to document all of this more thoroughly using GitHub Wiki
