@@ -31,7 +31,7 @@ my knowledge up to that required to create the Library. Thanks guys.
 TODO ... more components
 # Setup Cygwin64 environment
 
-https://github.com/noeldiviney/Docs/blob/master/Cygwin64Install.adoc
+include::https://github.com/noeldiviney/Docs/blob/master/Cygwin64Install.adoc[]
 
 # Installing Google Repo
 
