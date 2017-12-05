@@ -9,28 +9,37 @@ If you are unfamiliar with repo, you can read up on it
 https://code.google.com/archive/p/git-repo/[here].
 
 The *PSoC_5LP Component Library* 
-repositories catered for here are as follows
+repositories catered for are as follows
 
-Credits go to the following contributers who did the hard work involved
+https://github.com/noeldiviney/ND_PSoC_Comp_lib  
 
-1.  Michael Bey .... https://github.com/noeldiviney/Char_I2C_lib[CharLCD_I2C_lib]
-2.  odissey1 ... ... ..  https://github.com/noeldiviney/DDS24_lib[DDS24_lib]
-3.  odissey1 ... ... .. https://github.com/noeldiviney/DDS32_lib[DDS32_lib]
-4.  odissey1 ... ... .. https://github.com/noeldiviney/Encoder_lib[Encoder_lib]
-5.  odissey1 ... ... .. https://github.com/noeldiviney/Ext_LCD_lib[Ext_LCD_lib]
-6.  odissey1 ... ... .. https://github.com/noeldiviney/KIT-059_lib[KIT-059_lib]
-7.  odissey1 ... ... .. https://github.com/noeldiviney/QuadDec_SW_lib[QuadDec_SW_lib]
-8.  Todd Dust .. ... . https://github.com/noeldiviney/TDust_UDB_Lib[TDust_UDB_Lib]
+https://github.com/noeldiviney/ND_P5LP_Sch_Macro_lib  
+
+https://github.com/noeldiviney/Odissey1_lib  
+
+https://github.com/noeldiviney/TDust_UDB_lib  
+
+Credits go to the following contributers who's work I have borrowed on
+to create the Library. They have also been a great inspiration in getting
+my knowledge up to that required to create the Library. Thanks guys.
+
+1.  Michael Bey .... .. CharLCD I2C lib
+2.  odissey1 ... ... .... QuadDecoder, DDS24, DDS32, and KIT-059 
+3.  Todd Dust .. ... ... TDust_UDB components
+4.  Alan Hawse  ... .... Iot_Expert articles and Blogs
 
 TODO ... more components
 
-# Sadly!! we have to Create a Windows 10 working environment
+# I am using Cygwin64 for my Git/Repo working environment
+## Sadly!! we have to use Windows 10 for PSoC Creator
+## Surely now that Dot Net is ported to Linux Cypress can oblige
+## Please
 
 http://www.mcclean-cooper.com/valentino/cygwin_install/[Cygwin install
 howto]
 
 I also installed apt-cyg (cygwin apt-get) and gem. +
-For editing markdown files I istalled
+For editing markdown and asciidoc files I istalled
 https://github.com/asciidocfx/AsciidocFX/releases/download/v1.5.6/AsciidocFX_Windows.exe[AsciidocFX] +
 Add other files as required
 
@@ -99,4 +108,17 @@ The "Component Catalog" tree should look like
 
 image::images/CDC_Catalog.gif[Component Catalog]
 
+# Editing the Components in ~projects/P5LP/ComponentsDev
+
+After using "Repo sync" to fetch all the librarys
+"Git status" shows that they are detached which means they are unsuitable for git add, git commit etc
+To get around this it is necessary to use the following  Git commands.
+
+....
+$: git checkout master   or whatever branch one wishes to use
+$: git commit -a
+$: git push https://github.com/noeldiviney/CharLCD_I2C_Test.git  (in my case)
+....
+
 # TODO this is a "Work in progress"
+# I intend to document all of this more thoroughly using GitHub Wiki
